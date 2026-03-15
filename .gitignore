@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.pnpm_store/
+.pnpm-store/
+
+# Anchor / Rust
+target/
+.anchor
+
+# Solana local validator
+test-ledger/
+
+# Environment and secrets
+.env
+.env.*
+.env.local
+*.log
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# OS and editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Optional: uncomment to ignore keypair files (never commit real keys)
+# *.json
+# !package.json
+# !tsconfig.json
+# !components.json
+# !eslint.config.*
